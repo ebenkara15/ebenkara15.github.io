@@ -26,9 +26,17 @@ Ainsi, on a vu se développer des technologies et des infrastructures de calculs
 
 Si au début du siècle, le seul traitement de données était réservé aux technologies de bases de données, l'évolution technologique permet de constater l'effort qui a été entrepris pour répondre aux besoins de stockage et de traitement croissants des données.
 
-L'écosystème Hadoop bâtit autour du framework éponyme est le premier à proposer une solution pour le stockag et le traitement distribué. Basé sur un papier de recherche de Google, Hadoop met en oeuvre le paradigme *map-reduce*. Hadoop est aujourd'hui un pilier des architectures Big Data et un large écosystème s'est autour de la solution intiale. 
+L'écosystème Hadoop bâtit autour du framework éponyme est le premier à proposer une solution pour le stockag et le traitement distribué. Basé sur un [papier de recherche](https://static.googleusercontent.com/media/research.google.com/fr//archive/mapreduce-osdi04.pdf) de Google, Hadoop met en oeuvre le paradigme *map-reduce*. Hadoop est aujourd'hui un pilier des architectures Big Data et un large écosystème s'est établit autour de la solution originelle. 
 
-Dans un second temps, 
-### Support or Contact
+Dans un second temps, devant la complexité des architectures Big Data et constatant les potentialités liées à l'exploitation des données, l'accent a été mis sur l'accessibilité et la maîtrise des coûts. C'est pourquoi à partir de 2010, on voit apparaître des solutions en mode cloud qui permettent déployer des systèmes complets de gestion de données en délégant une partie de la complexité aux fournisseurs de ces services. Les principaux sont en 2022 
+- *Amazon Web Services*
+- *Microsoft Azure*
+-  *Google Cloud Platform*
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Du temps-réel ? Pourquoi faire ?
+
+![Batch Processing Example](docs/assets/image/batch_processing.png)
+
+C'est dans ce contexte que sont apparues les technologies dites temps-réel. Si auparavant, les données étaient d'abord stockées puis traitées, face aux flux grandissant, le temps-réel temps d'opérer au plus tôt les traitements.
+
+![Stream Processing Example](docs/assets/image/stream_processing.png)
