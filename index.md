@@ -1,4 +1,6 @@
-<link rel="shortcut icon" type="image/x-icon" href="docs/assets/image/favicon.png">
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
 
 ![Presentation Image](docs/assets/image/front_image.png)
 
