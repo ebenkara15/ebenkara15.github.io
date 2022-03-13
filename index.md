@@ -1,6 +1,6 @@
 ## Real-Time Processing and Big Data Environment
 
-![front_image](/ebenkara15.github.io/docs/assets/image/front_image.png)
+![front_image](docs/assets/image/front_image.png)
 
 ### Markdown
 
