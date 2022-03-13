@@ -1,7 +1,5 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-# Temps-réel et Big Data
-
 ![Presentation Image](docs/assets/image/front_image.png)
 
 ### De gigantesques flux de données 
