@@ -1,4 +1,4 @@
-## Temps-réel et Big Data
+# Temps-réel et Big Data
 
 ![Presentation Image](docs/assets/image/front_image.png)
 
@@ -35,8 +35,19 @@ Dans un second temps, devant la complexité des architectures Big Data et consta
 
 ### Du temps-réel ? Pourquoi faire ?
 
+#### Logique de traitement
+
 ![Batch Processing Example](docs/assets/image/batch_processing.png)
 
-C'est dans ce contexte que sont apparues les technologies dites temps-réel. Si auparavant, les données étaient d'abord stockées puis traitées, face aux flux grandissant, le temps-réel temps d'opérer au plus tôt les traitements.
+C'est dans ce contexte que sont apparues les technologies dites temps-réel. Si auparavant, les données étaient d'abord stockées puis traitées, face aux flux grandissant, le temps-réel temps d'opérer au plus tôt les traitements. L'objectif est de valoriser la données au plus vite mais aussi la tenue à jour. 
 
 ![Stream Processing Example](docs/assets/image/stream_processing.png)
+
+Ainsi, dans une logique temps-réel les flux de données sont directement traités puis peuvent 
+- alimenter des couches applicatives
+- être redirigés vers d'autres transformateurs
+- être stockés
+
+#### Un flux c'est quoi ?
+
+Hormis le changement dans le paradigme de traitement, c'est bien la nature des données elle-même qui a amené ces changements. 
